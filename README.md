@@ -11,7 +11,8 @@ Setup
 
 Endpoints
 
-Create a Blog Post
+I. Create a Blog Post
+
 Endpoint: /create
 
 HTTP Method: POST
@@ -34,7 +35,7 @@ Copy code
   "content": "This is the content of the new blog post."
 }
 
-Update a Blog Post
+II. Update a Blog Post
 
 Endpoint: /create/<id>
 
@@ -59,7 +60,7 @@ Copy code
 }
 
 
-View All Blog Posts
+III. View All Blog Posts
 
 Endpoint: /all
 
@@ -81,6 +82,9 @@ Copy code
     "content": "This is the content of another blog post."
   }
 ]
+
+
+
 Dependencies
 This project uses the following packages:
 
